@@ -3,6 +3,8 @@
 import Image from "next/image";
 import * as React from "react"
 import WhatsAppDrawer from "@/components/whatsappDrawer";
+import WeddingCalendar from "@/components/weddingCalendar";
+
 import { useTheme } from "next-themes";
 import {Moon, Sun} from "lucide-react"
 
@@ -14,14 +16,16 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         {/* Hero Image */}
         <p>Hero Image</p>
+        <Image src={"https://unsplash.com/photos/a-couple-of-people-holding-hands-over-a-body-of-water-YjkNrAqEnIo"} width={149} height={60} alt={"Hero"}/>
 
         <h1>Dear Guests</h1>
         <p>Wedding Message</p>
         <WhatsAppDrawer/>
         
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
+        <div className="flex gap-4 items-center flex-col">
           {/* Calendar */}
           <p>Calendar</p>
+          <WeddingCalendar/>
           
           
         </div>

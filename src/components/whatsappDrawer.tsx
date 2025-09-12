@@ -6,19 +6,20 @@ const whatsappDrawer = () => {
     <div>
         <Drawer>
             <DrawerTrigger>Join Us</DrawerTrigger>
-            <DrawerContent>
+            <DrawerContent className="items-center justify-items-center align-middle">
                 <DrawerHeader>
+                    <div className="bg-amber-400 rounded-full h-16 w-16"></div>
                     <DrawerTitle>
                         We are Happy to Have You
                     </DrawerTitle>
                     <DrawerDescription>
-                        Join Our WhatsApp Family. Link Below
+                        Join Our WhatsApp Family. Click Below
                     </DrawerDescription>
                 </DrawerHeader>
                 <DrawerFooter>
                     <Button>WhatsApp Family</Button>
                     <DrawerClose>
-                        <Button variant="outline">Cancel</Button>
+                        <Button variant="outline">Close</Button>
                     </DrawerClose>
                 </DrawerFooter>
             </DrawerContent>
