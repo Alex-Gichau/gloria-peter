@@ -6,13 +6,35 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         {/* Hero Image */}
         <p>Hero Image</p>
-        
 
+        <h1>Dear Guests</h1>
+        <p>Wedding Message</p>
+        
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           {/* Calendar */}
           <p>Calendar</p>
           
         </div>
+
+        <h1>Our Journey</h1>
+        <p>Couple Gallery</p>
+
+        <p>Map Location</p>
+
+        <p>Program Trail for the day</p>
+
+        <h1>Minigallery</h1>
+
+        <p>Dress Code</p>
+
+        <p>For gifts</p>
+
+        <h1>Minigallery</h1>
+
+        <p>RSVP form and contact information</p>
+
+        <p>Thank you note</p>
+
       </main>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
