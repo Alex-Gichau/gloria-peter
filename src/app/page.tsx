@@ -16,7 +16,7 @@ export default function Home() {
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         {/* Hero Image */}
         <p>Hero Image</p>
-        <Image src={"https://unsplash.com/photos/a-couple-of-people-holding-hands-over-a-body-of-water-YjkNrAqEnIo"} width={149} height={60} alt={"Hero"}/>
+        <Image src={"https://lh3.googleusercontent.com/pw/AP1GczPpg8-li-1T7ff-qsQXgyHgsQVt0wRMTbuY39OLnYQnxALPiAXgCEndI1a60_3WMv-DI4JpccdFWLrtqaqqnxAcuedGUsAQQYn7--T4vGJkzyFAFqJ8V8bIGFgvbHl0_i1ERTTQMtYPYKlWmRvIwN5N=w602-h925-s-no-gm?authuser=0https://unsplash.com/photos/a-couple-of-people-holding-hands-over-a-body-of-water-YjkNrAqEnIo.jpg"} alt={"Hero"} layout="responsive" width={200} height={400} className="rounded-lg"/>
 
         <h1>Dear Guests</h1>
         <p>Wedding Message</p>
