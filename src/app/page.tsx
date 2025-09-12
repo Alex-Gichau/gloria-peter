@@ -1,4 +1,10 @@
+"use client"
+
 import Image from "next/image";
+import * as React from "react"
+import { useTheme } from "next-themes";
+import {Moon, Sun} from "lucide-react"
+import {Button} from "@co"
 
 export default function Home() {
   return (
